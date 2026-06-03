@@ -5,7 +5,8 @@
 ---
 
 ## Who I am (the learner)
-- **Background:** Knows **JavaScript / Node.js**. Comfortable coding in JS. → *Always teach Java by comparing to JS.*
+- **Background:** Knows **JavaScript / Node.js**. Comfortable coding in JS (has used JS objects/methods, even if not formally "OOP"). → *Always teach Java by comparing to JS.*
+- **OOP/classes:** Weak — only studied classes & OOP briefly in college, doesn't really know it. → *Teach item 0.7 (Classes & objects) from scratch but LIGHT and DSA-minimal: just fields, constructor, `new`, instance methods, `this` — enough to write a `ListNode`/`TreeNode` and a "design this data structure" class. Do NOT go deep on inheritance/polymorphism/abstract classes/design patterns (not needed for DSA interviews). Bridge from JS classes (`class`/`constructor`/`this` map almost 1:1).*
 - **Java level:** Does **NOT know Java at all** — Phase 0 teaches the language from scratch (variables, types, conditionals, loops, references, methods, classes/objects) with NO DSA. Only after that do we touch complexity & patterns.
 - **DSA level:** Complete beginner. Started from zero on 2026-06-02.
 - **Goal:** Complete DSA mastery → **FAANG/MAANG-ready** in Java.
