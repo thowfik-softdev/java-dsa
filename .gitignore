@@ -1,0 +1,16 @@
+# Java build artifacts
+*.class
+out/
+target/
+
+# OS / editor
+.DS_Store
+.idea/
+*.iml
+.claude/
+
+# Obsidian local UI state (keep notes, drop workspace)
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+
