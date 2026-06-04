@@ -2,13 +2,19 @@
 
 **Progress is gated on mastery, not dates.** A box is checked only when a topic reaches **≥ `practiced`** in [05-progress/PROGRESS.md](05-progress/PROGRESS.md) (real recall, not "I read it"). Falling behind a target week is fine and expected. Faking a checkbox is not.
 
-`[ ]` not started · `[~]` in progress · `[x]` practiced+ · each item ≈ one 2-hour day (harder topics take several).
+`[ ]` not started · `[~]` in progress · `[x]` practiced+ · 🟢 fast (I likely know the *concept*, just need Java syntax) · 🟡 steady (new but manageable) · 🔴 hard — **budget extra deep-dive days**.
 
-> **I do not know Java at all.** So Phase 0 teaches the *language itself* from scratch — variables, types, conditionals, loops, references, methods, classes & objects — with **no DSA yet**. Only once I can write and run basic Java do we touch complexity (Phase 1) and then patterns. I know **JavaScript/Node**, so every Java concept is taught by comparison to JS.
+> **My profile:** 2+ years professional dev (JavaScript, Nest.js, React, Next.js) — but **basically zero DSA**. So I am NOT a beginner programmer; I'm a beginner at *Java syntax* and at *algorithmic thinking*. Pacing reflects this: I'll move **fast** through things I already understand as a developer (most of Phase 0, basic arrays/strings — I know loops/conditions/functions/objects conceptually, just need the Java mapping), and go **slow & deep** on genuinely new algorithmic concepts (recursion, complexity analysis, trees, graphs, DP, backtracking). Topics are unchanged — only the *pace* is calibrated. Steady one-topic-per-session; 🔴 topics get multiple days.
+
+### How my experience maps to the plan (what I'll fly through vs. grind)
+- **Fly through 🟢:** Java syntax basics — variables, conditionals, loops, methods, classes/objects (I do this daily in JS/TS, just learning Java's spelling + strict types). Likely 1 light session each, sometimes 2 items/session.
+- **Steady 🟡:** Arrays/matrix/strings in Java, collections, sorting/searching usage, two pointers, sliding window, hashing — new as *techniques* but my dev logic transfers.
+- **Grind 🔴 (give me more time):** Big-O analysis, **recursion** (the mental model), stacks/queues *as problem tools*, linked lists, **trees, graphs, BFS/DFS**, **dynamic programming**, **backtracking**, greedy. These are where DSA is genuinely hard and where I have no prior exposure — budget 2–4 deep days each, lots of hand-written practice.
 
 ---
 
-## Phase 0 — Java language from zero (NO DSA yet) · ~weeks 1–3
+## Phase 0 — Java language from zero (NO DSA yet) · 🟢 FAST for me · ~1–1.5 weeks (was 1–3)
+> I know all these concepts from JS/TS — I just need Java's syntax + strict types. Expect to combine items and move quickly. (Already done 0.1 + 0.2 in one day.)
 The goal: write, compile, and run real Java comfortably. We do not solve algorithm problems here — we learn the language. Each item ends with a tiny "make it print the right thing" exercise, not a LeetCode problem.
 
 - [ ] **0.1** Run Java: `main`, compile (`javac`) → run (`java`), `println` (JS: `node file.js` → `java File`, `console.log` → `System.out.println`)
@@ -20,7 +26,8 @@ The goal: write, compile, and run real Java comfortably. We do not solve algorit
 - [ ] **0.7** **Classes & objects** (DSA-minimal — I'm weak here, only saw OOP in college): fields, constructor, `new`, instance methods, `this` — just enough to write a `ListNode`/`TreeNode` and a "design this structure" class. NOT deep OOP (skip inheritance/polymorphism/patterns). Bridge from JS `class`/`constructor`/`this`.
 - [ ] **0.8** Mini-build: combine all of the above into one small program (e.g. a `BankAccount` class) — proves Phase 0 mastery
 
-## Phase 1 — Complexity + first data structures · ~weeks 4–6
+## Phase 1 — Complexity + first data structures · 🟡 mixed (Big-O is 🔴 for me) · ~weeks 2–4
+> Arrays/strings/collections are 🟢–🟡 (dev logic transfers). **Big-O analysis is 🔴 genuinely new — go deep, multiple days.**
 Now we reason about *cost* and learn the built-in containers DSA relies on.
 - [ ] **1.1** **Big-O intuition**: O(1)/O(n)/O(n²)/O(log n) by counting work — *feel* it, don't memorize
 - [ ] **1.2** **Arrays**: fixed-size `int[]`, `.length`, iterate, 1-D problems (JS arrays are dynamic — key difference)
@@ -28,7 +35,8 @@ Now we reason about *cost* and learn the built-in containers DSA relies on.
 - [ ] **1.4** **Strings**: immutability, `charAt`, `substring`, `StringBuilder` (why `+` in a loop is a trap)
 - [ ] **1.5** **Collections**: `ArrayList` (≈ JS array), `HashMap` (≈ JS `Map`), `HashSet` (≈ JS `Set`), `ArrayDeque` (stack/queue)
 
-## Phase 2 — Recursion & linear structures · ~weeks 7–11
+## Phase 2 — Recursion & linear structures · 🔴 HARD — slow down here · ~weeks 5–10
+> This is the first big DSA wall. **Recursion especially needs deep time** (2–4 days, lots of hand-tracing the call stack). Linked lists & stacks/queues *as problem tools* are new too. No rushing.
 - [ ] **2.1** [[Recursion]] — base case, recursive case, the call stack (the mental model everything later needs)
 - [ ] **2.2** [[Stack]] — LIFO, valid parens, monotonic stack intro
 - [ ] **2.3** [[Queue]] — FIFO, `ArrayDeque` as a queue
@@ -36,13 +44,15 @@ Now we reason about *cost* and learn the built-in containers DSA relies on.
 - [ ] **2.5** [[Sorting]] — built-in sort + merge/quick intuition, custom comparators
 - [ ] **2.6** [[Searching]] — linear search → [[Binary Search]] (on arrays, then on answer space)
 
-## Phase 3 — Core patterns · ~weeks 12–16
+## Phase 3 — Core patterns · 🟡 steady · ~weeks 11–15
+> These patterns are learnable once recursion/complexity click. Two pointers & sliding window feel intuitive to a dev; hashing leans on Map skills you already have. Steady pace, lots of problems.
 - [ ] **3.1** [[Two Pointers]] — converging & same-direction
 - [ ] **3.2** [[Sliding Window]] — fixed & variable size
 - [ ] **3.3** [[Hashing]] — frequency maps, seen-sets, complement trick
 - [ ] **3.4** [[Prefix Sum]]
 
-## Phase 4 — Trees, heaps & graphs · ~weeks 17–24
+## Phase 4 — Trees, heaps & graphs · 🔴 HARD — deep time · ~weeks 16–24
+> Heavily recursion-dependent. **Trees and graphs (BFS/DFS) need multiple deep days each** — these are core FAANG topics and brand new to me. Expect to revisit.
 - [ ] **4.1** [[Tree]] / Binary Tree — DFS (pre/in/post) + BFS traversals
 - [ ] **4.2** Binary Search Tree
 - [ ] **4.3** [[Heap]] / PriorityQueue — top-K
@@ -51,7 +61,8 @@ Now we reason about *cost* and learn the built-in containers DSA relies on.
 - [ ] **4.6** [[DFS]] — connectivity, cycle detection
 - [ ] **4.7** Union Find (DSU)
 
-## Phase 5 — Algorithms & advanced · ~weeks 25–32
+## Phase 5 — Algorithms & advanced · 🔴 HARDEST — most deep time · ~weeks 25–34
+> **Dynamic programming and backtracking are the hardest topics in DSA** — budget the most time here (DP especially: many days, many problems, expect to feel lost before it clicks). This is where FAANG separates candidates.
 - [ ] **5.1** [[Backtracking]] — subsets, permutations, combinations
 - [ ] **5.2** [[Greedy]] algorithms
 - [ ] **5.3** [[Dynamic Programming]] 1D — climbing stairs, house robber
@@ -59,7 +70,8 @@ Now we reason about *cost* and learn the built-in containers DSA relies on.
 - [ ] **5.5** DP knapsack family
 - [ ] **5.6** Intervals, Tries, advanced graphs (Dijkstra, topological sort)
 
-## Phase 6 — Interview readiness · ~weeks 33+
+## Phase 6 — Interview readiness · 🟡 steady · ~weeks 35+
+> Your communication/whiteboarding likely benefits from 2+ yrs of real work. Behavioral & system-design starter will feel familiar. Main work: timed practice + retaining everything.
 - [ ] **6.1** Timed solves (Mentor runs the clock — 30-min mediums)
 - [ ] **6.2** Mixed-pattern blind sets (interleaved)
 - [ ] **6.3** Talk-out-loud explanations + complexity on demand
@@ -68,8 +80,13 @@ Now we reason about *cost* and learn the built-in containers DSA relies on.
 
 ---
 
-## Honest FAANG note
-This is ~8–12 months at 2 hrs/day, *consistently*. Expect ~300–500 problems total by the end. Phase 0 (pure Java) adds ~2–3 weeks up front *because I'm starting from zero* — that time is non-negotiable; skipping it makes everything after harder. The DSA topics match the standard interview syllabus (NeetCode 150 / Blind 75). System design + the job-hunt side come in Phase 6 — deliberately not front-loaded.
+## Honest FAANG note (calibrated to my profile)
+Because I'm an experienced dev (2+ yrs) with **zero DSA**, the curve is lopsided:
+- **Java basics fly by** — Phase 0 is ~1–1.5 weeks, not 3. My dev experience is a real head start on syntax, debugging, and reading errors.
+- **But DSA can't be rushed** — the 🔴 phases (recursion, trees, graphs, DP, backtracking) are hard *regardless* of dev experience. Experience does NOT shortcut algorithmic thinking; it's a separate muscle.
+- **Realistic total: ~6–10 months at 2 hrs/day consistently** (faster Java offsets some, but the 🔴 DSA grind dominates the timeline). ~300–500 problems. The time saved in Phase 0 gets *reinvested* into deeper 🔴 work — not into finishing sooner.
+
+The DSA topics match the standard interview syllabus (NeetCode 150 / Blind 75). System design + job-hunt come in Phase 6.
 
 ## This week's headline goal
 > **Week 1:** Pure Java — run a program, then variables, types, conditionals, loops (items 0.1–0.4). **No DSA yet.** Goal is comfort writing and running basic Java, not speed.

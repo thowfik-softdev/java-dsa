@@ -17,7 +17,7 @@ Roadmap advances at **≥ practiced**.
 
 | Topic | Level | Last reviewed | Note |
 |-------|-------|---------------|------|
-| Java basics (Phase 0) | seen | 2026-06-03 | 0.1 done: wrote+ran first program by hand |
+| Java basics (Phase 0) | seen | 2026-06-03 | 0.1 + 0.2 done: program by hand, all 5 types, int-division trap |
 | Big-O intuition | unstarted | — | |
 | Collections | unstarted | — | |
 | Two Pointers | unstarted | — | |
@@ -39,7 +39,7 @@ _Add rows as new topics appear._
 ## 📅 Daily log (one line per day)
 | Date | Day | Showed up | Topic | Result |
 |------|-----|-----------|-------|--------|
-| 2026-06-03 | 1 | ✅ | 0.1 Run Java | Wrote+ran first program by hand. Clean. |
+| 2026-06-03 | 1 | ✅ | 0.1 Run Java + 0.2 Variables/Types | Program by hand; all 5 types; nailed int-division trap by reasoning. |
 
 ## 🩹 Weak topics (to reinforce before advancing)
 - none yet
@@ -49,3 +49,4 @@ Cards due for recall. Mentor reschedules after each review (fail→1d, ok→×1.
 | Card | Last reviewed | Next review | Interval (d) |
 |------|---------------|-------------|--------------|
 | [[Running a Java Program]] — println=?, javac vs java, why types? | 2026-06-03 | 2026-06-04 | 1 |
+| [[Variables and Types]] — 5 types, char vs String quotes, `7/2`=? | 2026-06-03 | 2026-06-04 | 1 |

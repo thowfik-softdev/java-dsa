@@ -5,7 +5,8 @@
 ---
 
 ## Who I am (the learner)
-- **Background:** Knows **JavaScript / Node.js**. Comfortable coding in JS (has used JS objects/methods, even if not formally "OOP"). → *Always teach Java by comparing to JS.*
+- **Background:** **2+ years professional developer** — JavaScript, **Nest.js, React, Next.js**. NOT a beginner programmer — strong at coding, logic, debugging, building apps. New only to **(a) Java syntax** and **(b) DSA / algorithmic thinking**. → *Teach Java fast via JS/TS comparisons (he knows the concepts, just needs the syntax). Go SLOW & deep on genuinely-new algorithmic concepts.*
+- **DSA experience:** **Basically none** — built real apps but never did LeetCode/Big-O/algorithms seriously. So: fast through Java basics, deep & patient through DSA. Pacing tags are in ROADMAP (🟢 fast / 🟡 steady / 🔴 hard-give-extra-time).
 - **OOP/classes:** Weak — only studied classes & OOP briefly in college, doesn't really know it. → *Teach item 0.7 (Classes & objects) from scratch but LIGHT and DSA-minimal: just fields, constructor, `new`, instance methods, `this` — enough to write a `ListNode`/`TreeNode` and a "design this data structure" class. Do NOT go deep on inheritance/polymorphism/abstract classes/design patterns (not needed for DSA interviews). Bridge from JS classes (`class`/`constructor`/`this` map almost 1:1).*
 - **Java level:** Does **NOT know Java at all** — Phase 0 teaches the language from scratch (variables, types, conditionals, loops, references, methods, classes/objects) with NO DSA. Only after that do we touch complexity & patterns.
 - **DSA level:** Complete beginner. Started from zero on 2026-06-02.
@@ -16,24 +17,28 @@
 ## The goal, concretely
 Solve a medium LeetCode-style problem in Java in ~25–30 min, explain brute-force → optimal out loud, state time/space complexity, handle edge cases — **and retain it long-term.**
 
-## How we work (the daily flow — 2 hrs)
-1. **RECALL (15m)** — Mentor quizzes me on due/yesterday topics *before* anything new. (Testing-first = retention.)
-2. **LEARN (30m)** — New concept: what / why it exists / intuition / when NOT to use / tradeoffs. With **JS comparisons**.
-3. **PRACTICE (20m)** — Guided walk-through of one example: brute force → optimal.
-4. **SOLVE (40m)** — I solve ONE problem independently. Hints only, never the answer up front.
-5. **NOTES (10m)** — I say **"generate notes"** → Mentor writes the Obsidian notebook entry in `01-concepts/` (+ problem note in `02-problems/`).
-6. **LOG (5m)** — Mentor updates this file + `05-progress/` + `03-daily/`, then commits to Git.
+## How we work (the daily flow — mastery-paced, NOT time-boxed)
+> **The day ends when *I* feel I've understood enough — not when a timer runs out.** Times below are loose guides, not limits. Easy concepts: go further, cover more. Hard concepts: slow down, go deep, and finishing just ONE concept that day is a complete, valid day. Depth of understanding decides the day's length, not minutes. ~2 hrs is a typical day, but I set the stopping point based on satisfaction & comprehension.
+
+1. **RECALL (~10–15m)** — Mentor quizzes me on due/yesterday topics *before* anything new. (Testing-first = retention.)
+2. **LEARN** — New concept: what / why it exists / intuition / when NOT to use / tradeoffs. With **JS comparisons**. Take as long as the concept needs.
+3. **PRACTICE** — Guided walk-through(s). On hard topics, do several small examples until it clicks.
+4. **SOLVE** — I solve problem(s) by hand (I hand-type all code). Hints only, never the answer up front. Number of problems flexes with the day.
+5. **NOTES** — I say **"generate notes"** → Mentor writes the Obsidian notebook entry in `01-concepts/` (+ problem note in `02-problems/`).
+6. **LOG** — Mentor updates this file + `05-progress/` + `03-daily/`, then commits to Git.
+
+**Stopping rule:** Mentor checks in ("do you feel solid on this, or want to go deeper / do another?") and lets ME decide when to close the day. A short deep day on a hard concept counts fully toward the streak.
 
 Full detail: [RULES.md](RULES.md). Weekly flow: see "Weekly" in RULES.
 
 ## 📍 WHERE I AM RIGHT NOW  ← (the part that changes every day)
 - **Phase:** 0 — Java language from zero (NO DSA yet)
-- **Current roadmap item:** `0.2 Variables & data types` (next session) — 0.1 is DONE.
-- **Last session:** Day 1 (2026-06-03) — item 0.1 Run Java. Wrote & ran first program BY HAND.
-- **Next action:** Recall the [[Running a Java Program]] card, then teach `0.2 Variables & data types`.
+- **Current roadmap item:** `0.3 Conditional statements` (next session) — 0.1 + 0.2 DONE.
+- **Last session:** Day 1 (2026-06-03) — items 0.1 Run Java + 0.2 Variables/Types. Wrote programs BY HAND; nailed the int-division trap by reasoning. Moving fast through Java basics (experienced dev).
+- **Next action:** Recall the two cards ([[Running a Java Program]], [[Variables and Types]]), then teach `0.3 Conditional statements` — go fast (he knows if/else from JS, just Java syntax + `switch`).
 - **Streak:** 1 day 🔥
 - **Weak topics to reinforce:** none yet
-- **Notes generated so far:** [[Running a Java Program]]
+- **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]]
 - **IMPORTANT learner preference:** wants to **hand-type all code** themselves — give task + hints, never paste full solutions.
 
 > Mentor: update the block above at the end of every session. It is how the next chat knows what to do.
@@ -66,3 +71,5 @@ This repo's **local git config is already set** to that identity, so a plain `gi
 - 2026-06-02: Notes are **mandatory but on-demand** ("generate notes").
 - 2026-06-02: Teach **Java via JavaScript comparisons** (learner knows Node).
 - 2026-06-03: Commits authored as **Thowfik Juhair <thowfik.softdev@gmail.com>** (GitHub account email) — no co-author, never the word "claude" anywhere. Rebuilt `.git` fresh to purge old attribution. (See Git commit rules above.)
+- 2026-06-03: **Learner hand-types ALL code** — Mentor gives task + hints only, never pastes full solutions.
+- 2026-06-03: **Mastery-paced days, not time-boxed.** Learner decides when the day ends based on feeling satisfied/understanding. Hard concept = go deep, one concept can be a full day. Mentor checks in and lets learner set the stopping point.
