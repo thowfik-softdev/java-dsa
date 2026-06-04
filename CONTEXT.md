@@ -28,12 +28,13 @@ Full detail: [RULES.md](RULES.md). Weekly flow: see "Weekly" in RULES.
 
 ## 📍 WHERE I AM RIGHT NOW  ← (the part that changes every day)
 - **Phase:** 0 — Java language from zero (NO DSA yet)
-- **Current roadmap item:** `0.1 Run Java` (about to start — Day 1 not yet done in v2)
-- **Last session:** none yet in v2 (system just rebuilt 2026-06-02)
-- **Next action:** Mentor runs first-session **assessment**, then teaches `0.1`.
-- **Streak:** 0 days (Day 1 pending)
+- **Current roadmap item:** `0.2 Variables & data types` (next session) — 0.1 is DONE.
+- **Last session:** Day 1 (2026-06-03) — item 0.1 Run Java. Wrote & ran first program BY HAND.
+- **Next action:** Recall the [[Running a Java Program]] card, then teach `0.2 Variables & data types`.
+- **Streak:** 1 day 🔥
 - **Weak topics to reinforce:** none yet
-- **Notes generated so far:** none yet
+- **Notes generated so far:** [[Running a Java Program]]
+- **IMPORTANT learner preference:** wants to **hand-type all code** themselves — give task + hints, never paste full solutions.
 
 > Mentor: update the block above at the end of every session. It is how the next chat knows what to do.
 
@@ -57,7 +58,7 @@ Commits in this repo must be authored as **`Thowfik Juhair <thowfik.softdev@gmai
 ```bash
 git -c user.name="Thowfik Juhair" -c user.email="thowfik.softdev@gmail.com" commit -m "<message>"
 ```
-This rule lives here in CONTEXT so it travels with the repo when cloned to another machine — any assistant must follow it.
+This repo's **local git config is already set** to that identity, so a plain `git commit` / `git push` commits as the user with NO inline `-c` flags — it must look exactly like the user pushed it themselves. Use plain `git add` / `git commit -m` / `git push`. This rule lives here in CONTEXT so it travels with the repo when cloned to another machine — any assistant must follow it.
 
 ## Decisions we've made (so we don't relitigate)
 - 2026-06-02: Rebuilt as **single-Mentor** system (no separate agents). Wiped v1 clean.

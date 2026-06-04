@@ -3,10 +3,10 @@
 The single place for streak + mastery + stats. Updated at the end of every session by the Mentor. No other progress files — this is it.
 
 ## 🔥 Streak
-- **Current streak:** 0 days
-- **Longest streak:** 0 days
-- **Total study days:** 0
-- **Started:** 2026-06-02
+- **Current streak:** 1 day 🔥
+- **Longest streak:** 1 day
+- **Total study days:** 1
+- **Started:** 2026-06-03
 
 ## 📈 Stats
 - Problems solved: 0 (easy 0 · medium 0 · hard 0)
@@ -17,7 +17,7 @@ Roadmap advances at **≥ practiced**.
 
 | Topic | Level | Last reviewed | Note |
 |-------|-------|---------------|------|
-| Java basics (Phase 0) | unstarted | — | |
+| Java basics (Phase 0) | seen | 2026-06-03 | 0.1 done: wrote+ran first program by hand |
 | Big-O intuition | unstarted | — | |
 | Collections | unstarted | — | |
 | Two Pointers | unstarted | — | |
@@ -39,7 +39,7 @@ _Add rows as new topics appear._
 ## 📅 Daily log (one line per day)
 | Date | Day | Showed up | Topic | Result |
 |------|-----|-----------|-------|--------|
-| _(first entry after Day 1)_ | | | | |
+| 2026-06-03 | 1 | ✅ | 0.1 Run Java | Wrote+ran first program by hand. Clean. |
 
 ## 🩹 Weak topics (to reinforce before advancing)
 - none yet
@@ -48,4 +48,4 @@ _Add rows as new topics appear._
 Cards due for recall. Mentor reschedules after each review (fail→1d, ok→×1.5, easy→×2.5).
 | Card | Last reviewed | Next review | Interval (d) |
 |------|---------------|-------------|--------------|
-| _(first card after Day 1)_ | | | |
+| [[Running a Java Program]] — println=?, javac vs java, why types? | 2026-06-03 | 2026-06-04 | 1 |
