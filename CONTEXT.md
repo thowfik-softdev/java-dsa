@@ -33,12 +33,13 @@ Full detail: [RULES.md](RULES.md). Weekly flow: see "Weekly" in RULES.
 
 ## 📍 WHERE I AM RIGHT NOW  ← (the part that changes every day)
 - **Phase:** 0 — Java language from zero (NO DSA yet)
-- **Current roadmap item:** `0.3 Conditional statements` (next session) — 0.1 + 0.2 DONE.
-- **Last session:** Day 1 (2026-06-03) — items 0.1 Run Java + 0.2 Variables/Types. Wrote programs BY HAND; nailed the int-division trap by reasoning. Moving fast through Java basics (experienced dev).
-- **Next action:** Recall the two cards ([[Running a Java Program]], [[Variables and Types]]), then teach `0.3 Conditional statements` — go fast (he knows if/else from JS, just Java syntax + `switch`).
-- **Streak:** 1 day 🔥
+- **Current roadmap item:** `0.4 Loops` (next session) — 0.1, 0.2, 0.3 DONE.
+- **Last session:** Day 2 (2026-06-04) — item 0.3 Conditionals + switch. Went beyond task: `.equals()`, `!`, grade ladder, switch on Strings. Discovered fall-through by experiment and understood the mechanism. Strong.
+- **Next action:** Recall the [[Conditional Statements]] card (+ any due), then teach `0.4 Loops` (for/while/do-while) — fast, he knows loops from JS; focus on any Java-specific bits + using loops well. Create `src/phase0-java-basics/T04_Loops.java` only when starting.
+- **Streak:** 2 days 🔥
 - **Weak topics to reinforce:** none yet
-- **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]]
+- **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]], [[Conditional Statements]]
+- **src/ convention:** files named `T0x_Topic.java` (number prefix → topic-order sort; class name matches). Only create files for done/current topics, no future scaffolds.
 - **IMPORTANT learner preference:** wants to **hand-type all code** themselves — give task + hints, never paste full solutions.
 
 > Mentor: update the block above at the end of every session. It is how the next chat knows what to do.

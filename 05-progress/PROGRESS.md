@@ -3,9 +3,9 @@
 The single place for streak + mastery + stats. Updated at the end of every session by the Mentor. No other progress files — this is it.
 
 ## 🔥 Streak
-- **Current streak:** 1 day 🔥
-- **Longest streak:** 1 day
-- **Total study days:** 1
+- **Current streak:** 2 days 🔥
+- **Longest streak:** 2 days
+- **Total study days:** 2
 - **Started:** 2026-06-03
 
 ## 📈 Stats
@@ -40,6 +40,7 @@ _Add rows as new topics appear._
 | Date | Day | Showed up | Topic | Result |
 |------|-----|-----------|-------|--------|
 | 2026-06-03 | 1 | ✅ | 0.1 Run Java + 0.2 Variables/Types | Program by hand; all 5 types; nailed int-division trap by reasoning. |
+| 2026-06-04 | 2 | ✅ | 0.3 Conditionals + switch | Went beyond task: .equals(), !, grade ladder, switch. Found fall-through by experiment + understood the mechanism. |
 
 ## 🩹 Weak topics (to reinforce before advancing)
 - none yet
@@ -50,3 +51,4 @@ Cards due for recall. Mentor reschedules after each review (fail→1d, ok→×1.
 |------|---------------|-------------|--------------|
 | [[Running a Java Program]] — println=?, javac vs java, why types? | 2026-06-04 | 2026-06-07 | 3 |
 | [[Variables and Types]] — 5 types, char vs String quotes, `7/2`=? | 2026-06-04 | 2026-06-07 | 3 |
+| [[Conditional Statements]] — String compare? switch no-break prints? | 2026-06-04 | 2026-06-05 | 1 |
