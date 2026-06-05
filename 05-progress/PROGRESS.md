@@ -48,5 +48,5 @@ _Add rows as new topics appear._
 Cards due for recall. Mentor reschedules after each review (fail→1d, ok→×1.5, easy→×2.5).
 | Card | Last reviewed | Next review | Interval (d) |
 |------|---------------|-------------|--------------|
-| [[Running a Java Program]] — println=?, javac vs java, why types? | 2026-06-03 | 2026-06-04 | 1 |
-| [[Variables and Types]] — 5 types, char vs String quotes, `7/2`=? | 2026-06-03 | 2026-06-04 | 1 |
+| [[Running a Java Program]] — println=?, javac vs java, why types? | 2026-06-04 | 2026-06-07 | 3 |
+| [[Variables and Types]] — 5 types, char vs String quotes, `7/2`=? | 2026-06-04 | 2026-06-07 | 3 |

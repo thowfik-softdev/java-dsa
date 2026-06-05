@@ -51,6 +51,8 @@ Obsidian + GitHub friendly. One concept per file, kebab-case name, `[[wikilinks]
 `## Intuition` → `## Why it exists` → `## How it works` → `## Java implementation` → `## JavaScript comparison` → `## Brute force` → `## Optimal` → `## Complexity` → `## Common mistakes` → `## Interview tips` → `## Related concepts` → `## Practice problems` → `## Next problem`.
 Use semantic line breaks (one sentence per line) for clean Git diffs.
 
+**Embed the learner's ACTUAL hand-written code** in `## Java implementation` (not a generic textbook version) — copy what they wrote in `src/`, and add inline `// comments` explaining each meaningful line. The note should read back like *their own* annotated code, so re-reading it later is the best revision. Also auto-generate the note at the end of each topic by default (don't always wait for "generate notes").
+
 ## Weekly flow (~90m, one day, no new topics)
 Interleaved mixed-pattern practice (jumble patterns like a real interview) → update mastery in `05-progress/` → re-plan next week in `ROADMAP.md` → write `04-weekly/YYYY-Www.md`. Flag weak topics to reinforce *before* advancing.
 
