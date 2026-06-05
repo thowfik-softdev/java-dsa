@@ -68,7 +68,11 @@ Now we reason about *cost* and learn the built-in containers DSA relies on.
 - [ ] **5.3** [[Dynamic Programming]] 1D — climbing stairs, house robber
 - [ ] **5.4** DP 2D — grid paths, edit distance
 - [ ] **5.5** DP knapsack family
-- [ ] **5.6** Intervals, Tries, advanced graphs (Dijkstra, topological sort)
+- [ ] **5.6** [[Intervals]] + [[Tries]]
+- [ ] **5.7** Named graph algorithms — Dijkstra & topological sort (shortest path / ordering)
+- [ ] **5.8** 🔴 **Minimum Spanning Tree** — Kruskal's & Prim's (uses Union Find); + Floyd–Warshall (all-pairs shortest path)
+- [ ] **5.9** **Bit Manipulation** — AND/OR/XOR/shifts, the XOR "single number" trick, bitmasks, power-of-two checks (FAANG staple; JS bitwise ≈ Java)
+- [ ] **5.10** **Math & Number Theory** — GCD/LCM (Euclid), prime sieve, modular arithmetic, fast power, overflow awareness
 
 ## Phase 6 — Interview readiness · 🟡 steady · ~weeks 35+
 > Your communication/whiteboarding likely benefits from 2+ yrs of real work. Behavioral & system-design starter will feel familiar. Main work: timed practice + retaining everything.
