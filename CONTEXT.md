@@ -33,12 +33,13 @@ Full detail: [RULES.md](RULES.md). Weekly flow: see "Weekly" in RULES.
 
 ## 📍 WHERE I AM RIGHT NOW  ← (the part that changes every day)
 - **Phase:** 0 — Java language from zero (NO DSA yet)
-- **Current roadmap item:** `0.4 Loops` (next session) — 0.1, 0.2, 0.3 DONE.
-- **Last session:** Day 2 (2026-06-05) — item 0.3 Conditionals + switch. Went beyond task: `.equals()`, `!`, grade ladder, switch on Strings. Discovered fall-through by experiment and understood the mechanism. Strong.
-- **Next action:** Recall the [[Conditional Statements]] card (+ any due), then teach `0.4 Loops` (for/while/do-while) — fast, he knows loops from JS; focus on any Java-specific bits + using loops well. Create `src/phase0-java-basics/T04_Loops.java` only when starting.
-- **Streak:** 2 days 🔥
+- **Current roadmap item:** `0.5 Methods` (next session) — 0.1, 0.2, 0.3, 0.4 DONE.
+- **Last session:** Day 3 (2026-06-06) — item 0.4 Loops (for/while/do-while/enhanced-for + break/continue). Hand-wrote all four shapes in one `main`; debugged a real continue/break ordering bug from output (15 is a multiple of 3 → `continue` fired before `break`); learned `continue` skips lines below it and the one-`public class`-per-file rule. Strong.
+- **Next action:** Recall due cards ([[Loops]] due 06-07, [[Conditional Statements]] due 06-09), then teach `0.5 Methods` (declaring, parameters, return types, `static` vs not, `void`) — bridge from JS functions, now with types on params/return. Create `src/phase0-java-basics/T05_Methods.java` only when starting.
+- **Streak:** 3 days 🔥
 - **Weak topics to reinforce:** none yet
-- **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]], [[Conditional Statements]]
+- **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]], [[Conditional Statements]], [[Loops]]
+- **Toolchain:** This device has **Temurin JDK 21 LTS** installed (winter 2026) + VS Code Java extensions. `javac`/`java` verified working. (Other machines may differ — check before running.)
 - **src/ convention:** files named `T0x_Topic.java` (number prefix → topic-order sort; class name matches). Only create files for done/current topics, no future scaffolds.
 - **IMPORTANT learner preference:** wants to **hand-type all code** themselves — give task + hints, never paste full solutions.
 

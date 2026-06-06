@@ -17,10 +17,10 @@
 > I know all these concepts from JS/TS — I just need Java's syntax + strict types. Expect to combine items and move quickly. (Already done 0.1 + 0.2 in one day.)
 The goal: write, compile, and run real Java comfortably. We do not solve algorithm problems here — we learn the language. Each item ends with a tiny "make it print the right thing" exercise, not a LeetCode problem.
 
-- [ ] **0.1** Run Java: `main`, compile (`javac`) → run (`java`), `println` (JS: `node file.js` → `java File`, `console.log` → `System.out.println`)
-- [ ] **0.2** **Variables & data types**: `int`, `long`, `double`, `boolean`, `char`, `String` — and *why types exist* (JS `let x` has no type; Java `int x` does)
-- [ ] **0.3** **Conditional statements**: `if / else if / else`, comparison & logical operators, `switch` (vs JS — nearly identical, `===` quirk doesn't exist)
-- [ ] **0.4** **Loops**: `for`, `while`, `do-while`, `break`/`continue` (vs JS — same shapes)
+- [x] **0.1** Run Java: `main`, compile (`javac`) → run (`java`), `println` (JS: `node file.js` → `java File`, `console.log` → `System.out.println`)
+- [x] **0.2** **Variables & data types**: `int`, `long`, `double`, `boolean`, `char`, `String` — and *why types exist* (JS `let x` has no type; Java `int x` does)
+- [x] **0.3** **Conditional statements**: `if / else if / else`, comparison & logical operators, `switch` (vs JS — nearly identical, `===` quirk doesn't exist)
+- [x] **0.4** **Loops**: `for`, `while`, `do-while`, `break`/`continue` (vs JS — same shapes)
 - [ ] **0.5** **Methods**: declaring, parameters, return types, `static` vs not, `void` (JS functions vs Java methods — types on params/return)
 - [ ] **0.6** **References vs values**: primitives copy, objects share a reference; `==` vs `.equals()` (this trips up JS devs — JS objects are also references, but `==` behaves differently)
 - [ ] **0.7** **Classes & objects** (DSA-minimal — I'm weak here, only saw OOP in college): fields, constructor, `new`, instance methods, `this` — just enough to write a `ListNode`/`TreeNode` and a "design this structure" class. NOT deep OOP (skip inheritance/polymorphism/patterns). Bridge from JS `class`/`constructor`/`this`.
