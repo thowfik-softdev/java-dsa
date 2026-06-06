@@ -34,7 +34,7 @@ Full detail: [RULES.md](RULES.md). Weekly flow: see "Weekly" in RULES.
 ## 📍 WHERE I AM RIGHT NOW  ← (the part that changes every day)
 - **Phase:** 0 — Java language from zero (NO DSA yet)
 - **Current roadmap item:** `0.4 Loops` (next session) — 0.1, 0.2, 0.3 DONE.
-- **Last session:** Day 2 (2026-06-04) — item 0.3 Conditionals + switch. Went beyond task: `.equals()`, `!`, grade ladder, switch on Strings. Discovered fall-through by experiment and understood the mechanism. Strong.
+- **Last session:** Day 2 (2026-06-05) — item 0.3 Conditionals + switch. Went beyond task: `.equals()`, `!`, grade ladder, switch on Strings. Discovered fall-through by experiment and understood the mechanism. Strong.
 - **Next action:** Recall the [[Conditional Statements]] card (+ any due), then teach `0.4 Loops` (for/while/do-while) — fast, he knows loops from JS; focus on any Java-specific bits + using loops well. Create `src/phase0-java-basics/T04_Loops.java` only when starting.
 - **Streak:** 2 days 🔥
 - **Weak topics to reinforce:** none yet
