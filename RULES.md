@@ -65,6 +65,15 @@ Recurring teaching points baked into the drill:
 - **Brute force + complexity first**, then optimize.
 - Prefer seeding from real data (`nums[0]`) over magic sentinels once a guard exists; delete redundant special-cases the general loop already covers.
 
+## The Concept Scaffold (the learner's PREFERRED way to learn a new concept)
+> Adopted 2026-06-07. For LEARNING items (Phase 0 language items, and any new concept), use this by default — the lighter sibling of the Test-First Problem Drill.
+
+When starting a new concept, the Mentor **creates the `src/` file first** (e.g. `T0x_Topic.java`), pre-filled with:
+- a short header (concept + run command);
+- **simple, plain-language `// comments`** marking what to write at each spot (a guided skeleton), NOT the solution code.
+
+Then the Mentor **guides the learner in the chat, step by step**, to fill it in. The learner still **hand-types all real code** — the scaffold is only comments/structure. Review after, fairly (this is learning, not the harsh problem drill).
+
 ## The notebook entry (mandatory structure for `01-concepts/`)
 Obsidian + GitHub friendly. One concept per file, kebab-case name, `[[wikilinks]]` to related notes. Sections in this order:
 `## Intuition` → `## Why it exists` → `## How it works` → `## Java implementation` → `## JavaScript comparison` → `## Brute force` → `## Optimal` → `## Complexity` → `## Common mistakes` → `## Interview tips` → `## Related concepts` → `## Practice problems` → `## Next problem`.

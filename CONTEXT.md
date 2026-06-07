@@ -33,12 +33,13 @@ Full detail: [RULES.md](RULES.md). Weekly flow: see "Weekly" in RULES.
 
 ## 📍 WHERE I AM RIGHT NOW  ← (the part that changes every day)
 - **Phase:** 0 — Java language from zero (NO DSA yet)
-- **Current roadmap item:** `0.5 Methods` (next session) — 0.1, 0.2, 0.3, 0.4 DONE.
-- **Last session:** Day 3 (2026-06-06) — item 0.4 Loops (for/while/do-while/enhanced-for + break/continue). Hand-wrote all four shapes in one `main`; debugged a real continue/break ordering bug from output (15 is a multiple of 3 → `continue` fired before `break`); learned `continue` skips lines below it and the one-`public class`-per-file rule. Strong.
-- **Next action:** Recall due cards ([[Loops]] due 06-07, [[Conditional Statements]] due 06-09), then teach `0.5 Methods` (declaring, parameters, return types, `static` vs not, `void`) — bridge from JS functions, now with types on params/return. Create `src/phase0-java-basics/T05_Methods.java` only when starting.
-- **Streak:** 3 days 🔥
+- **Current roadmap item:** `0.6 References vs values` (next session) — 0.1–0.5 DONE.
+- **Last session:** Day 4 (2026-06-07) — item 0.5 Methods (params/return/`static`/`void`). Hand-wrote `add`/`square`/`greet`/`isEven`; caught a literal-`<name>` bug (param is a variable, not literal text) and the boolean-ternary smell (`cond ? true : false` → `cond`). Clean. Also did P01 max (linear scan) on Day 3.
+- **Next action:** Recall due cards ([[Methods]] due 06-08, [[Loops]] due 06-10), then teach `0.6 References vs values` — primitives copy vs objects share a reference, `==` vs `.equals()` (the JS-dev gotcha). Use the **Concept Scaffold** workflow: create `src/phase0-java-basics/T06_References.java` with simple guiding comments, then guide him to fill it.
+- **Streak:** 4 days 🔥
 - **Weak topics to reinforce:** none yet
-- **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]], [[Conditional Statements]], [[Loops]]
+- **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]], [[Conditional Statements]], [[Loops]], [[Methods]]
+- **Problems solved:** P01 Max in Array (linear scan, O(n)/O(1)) — `problem-solving/01-arrays/`.
 - **Toolchain:** This device has **Temurin JDK 21 LTS** installed (winter 2026) + VS Code Java extensions. `javac`/`java` verified working. (Other machines may differ — check before running.)
 - **src/ convention:** files named `T0x_Topic.java` (number prefix → topic-order sort; class name matches). Only create files for done/current topics, no future scaffolds.
 - **IMPORTANT learner preference:** wants to **hand-type all code** themselves — give task + hints, never paste full solutions.
@@ -75,5 +76,6 @@ This repo's **local git config is already set** to that identity, so a plain `gi
 - 2026-06-03: Commits authored as **Thowfik Juhair <thowfik.softdev@gmail.com>** (GitHub account email) — no co-author, never the word "claude" anywhere. Rebuilt `.git` fresh to purge old attribution. (See Git commit rules above.)
 - 2026-06-03: **Learner hand-types ALL code** — Mentor gives task + hints only, never pastes full solutions.
 - 2026-06-03: **Mastery-paced days, not time-boxed.** Learner decides when the day ends based on feeling satisfied/understanding. Hard concept = go deep, one concept can be a full day. Mentor checks in and lets learner set the stopping point.
+- 2026-06-07: **Concept Scaffold** is the learner's preferred way to LEARN a new concept — Mentor creates the `src/` file first with simple plain-language `// comments` (a guided skeleton, NOT the solution), then guides the learner step-by-step in chat to hand-type it in. Lighter sibling of the Test-First Problem Drill; use by default for learning items. Full steps in [RULES.md](RULES.md).
 - 2026-06-06: **Test-First Problem Drill** is the learner's preferred problem-solving format — Mentor scaffolds (test cases + edge-cases checklist + PASS/FAIL runner + empty method stub), learner hand-fills, then Mentor gives a HARSH code review, iterate to clean. Use by default for every `problem-solving/` problem. Full steps in [RULES.md](RULES.md). Also: `problem-solving/` (repo root) holds solved-problem CODE, categorized `NN-topic/P0x_Name.java` (numbers on folders since Java class names can't start with a digit); separate from `src/phase0-java-basics/` (language learning).
 - 2026-06-04: Gap-checked roadmap vs a popular 6-month DSA syllabus. Added to Phase 5: **5.8 MST (Kruskal/Prim) + Floyd–Warshall**, **5.9 Bit Manipulation**, **5.10 Math & Number Theory** — these were the only real gaps. Deliberately deprioritized DBMS/OS/Networks/competitive-programming (campus-placement filler, not FAANG-DSA core; learner is an experienced dev).
