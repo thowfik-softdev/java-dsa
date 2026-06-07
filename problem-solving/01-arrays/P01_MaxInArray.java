@@ -1,70 +1,39 @@
-// Problem-Solving · 01-arrays · P01 — Find the Max in an Array  [first DSA pattern: linear scan]
-// Pattern: LINEAR SCAN — walk the array once, keep a "best so far", update when you beat it.
-// Run: cd problem-solving/01-arrays && javac P01_MaxInArray.java && java P01_MaxInArray
+// Problem-Solving · 01-arrays · P01 — Find the Max in an Array  [linear scan]
+// Run: cd problem-solving/01-arrays && javac *.java && java P01_MaxInArray
+//   (javac *.java also compiles the shared TestRunner.java in this folder)
 //
-// ── TEST CASES (input -> expected) ───────────────────────────────────────────
-//   {23, 7, 45, 12, 89, 34} -> 89    normal case
-//   {42}                    -> 42    single element
-//   {-5, -2, -9}            -> -2    all negatives (why seeding with 0 would be WRONG)
-//   {7, 7, 7}              -> 7     all duplicates
-//   {1, 2, 3, 4, 5}         -> 5     max at the END  (don't stop early)
-//   {5, 4, 3, 2, 1}         -> 5     max at the START (don't drift off it)
-//   {-2147483648}           -> ?     array holds exactly Integer.MIN_VALUE (sentinel trap!)
-//   {}  (empty)             -> ???   EDGE CASE — you must DECIDE the behavior (see below)
-//
-// ── EDGE CASES to handle in findMax() ────────────────────────────────────────
-//   • EMPTY array (length 0): there IS no max. Pick a policy and implement it:
-//       (a) throw new IllegalArgumentException("empty array")   ← interview-preferred
-//       (b) return a documented sentinel                        ← but then caller can't tell
-//     Whatever you choose, it must NOT silently return a fake number.
-//   • Single element  -> that element is the max.
-//   • All negatives   -> must still work (so DON'T start max at 0).
-//   • Duplicated max  -> fine, value is the same.
-// ─────────────────────────────────────────────────────────────────────────────
+// TEST CASES: {23,7,45,12,89,34}->89, {42}->42, {-5,-2,-9}->-2, {7,7,7}->7,
+//             {1,2,3,4,5}->5, {5,4,3,2,1}->5
+// EDGE: an empty array has NO max -> throw (don't return a fake value). The
+//       max pattern needs a real first element, so seed with nums[0], not 0.
 
 public class P01_MaxInArray {
 
     public static void main(String[] args) {
-        // Test runner: prints PASS/FAIL for each case. (Don't change this part.)
-        runTest(new int[]{23, 7, 45, 12, 89, 34}, 89);
-        runTest(new int[]{42}, 42);
-        runTest(new int[]{-5, -2, -9}, -2);
-        runTest(new int[]{7, 7, 7}, 7);
-        runTest(new int[]{1, 2, 3, 4, 5}, 5);
-        runTest(new int[]{5, 4, 3, 2, 1}, 5);
+        TestRunner.start("P01 - Max in Array");
 
-        // EMPTY case: uncomment once you've decided + implemented the behavior.
-        // If you throw, wrap this in try/catch (we'll cover that later) or just
-        // test it by hand. If you return a sentinel, assert that value here.
-        // runTest(new int[]{}, /* expected? */ 0);
+        int[] a = { 23, 7, 45, 12, 89, 34 }; TestRunner.check(a, 89, findMax(a));
+        int[] b = { 42 };                    TestRunner.check(b, 42, findMax(b));
+        int[] c = { -5, -2, -9 };            TestRunner.check(c, -2, findMax(c));
+        int[] d = { 7, 7, 7 };               TestRunner.check(d, 7, findMax(d));
+        int[] e = { 1, 2, 3, 4, 5 };         TestRunner.check(e, 5, findMax(e));
+        int[] f = { 5, 4, 3, 2, 1 };         TestRunner.check(f, 5, findMax(f));
+        // empty: findMax(new int[]{}) throws IllegalArgumentException (test by hand)
+
+        TestRunner.summary();
     }
 
-    // ── YOU FILL THIS ────────────────────────────────────────────────────────
-    // Return the largest value in nums (linear scan).
-    // Your earlier loop logic was CORRECT — port it here, then add the empty guard.
+    // Largest value via a linear scan; seed "best so far" with the first element.
     static int findMax(int[] nums) {
-        // TODO:
-        //   1) handle empty array (length 0) per your chosen policy
-        if(nums.length == 0){
+        if (nums.length == 0) {
             throw new IllegalArgumentException("empty array has no max");
         }
-
-        //   2) seed your "best so far"  (nums[0] is cleaner than a sentinel — why?)
-        //   3) scan and update when you find something bigger
         int max = nums[0];
-        for (int i = 1 ; i < nums.length; i++){
-            if(nums[i] > max){
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] > max) {
                 max = nums[i];
             }
         }
-        //   4) return the max
         return max;
-    }
-
-    // ── test helper (already done) ───────────────────────────────────────────
-    static void runTest(int[] nums, int expected) {
-        int got = findMax(nums);
-        String status = (got == expected) ? "PASS" : "FAIL";
-        System.out.println(status + "  expected=" + expected + "  got=" + got);
     }
 }

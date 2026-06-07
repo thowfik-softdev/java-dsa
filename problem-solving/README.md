@@ -17,6 +17,19 @@ problem-solving/
 - **Category = numbered folder** (`01-arrays`, `02-strings`, …) — ordered by roadmap topic.
 - **Problem = `P0x_Name.java`** — ordered within its category.
 
+## Shared test runner (`TestRunner.java`)
+Each category folder has one **`TestRunner.java`** — a reusable PASS/FAIL test harness
+with colored, boxed output and an `X/N passed` summary. Problems use it like:
+```java
+TestRunner.start("P02 - Sum of an Array");
+int[] a = { 1, 2, 3 };  TestRunner.check(a, 6, sumArray(a));   // (input, expected, got)
+TestRunner.summary();
+```
+Run a problem with **`javac *.java && java P0x`** — the `*.java` also compiles the shared
+runner in that folder. It lives once **per category folder** (not per problem) because
+folder names like `01-arrays` can't be Java packages (hyphen/leading digit). Copy
+`TestRunner.java` into each new category folder.
+
 ## Naming rule (Java constraint)
 A `.java` file's **public class name cannot start with a digit**, so the ordering numbers live on
 the **folders**, and each problem file uses a `P0x_` prefix (starts with a letter → valid class name,

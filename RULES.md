@@ -54,7 +54,7 @@ A scaffold-fill-review loop (TDD-style). The Mentor never writes the solution bo
    - a one-line **TASK** + the pattern name;
    - a **TEST-CASE table** at the top: `input -> expected`, covering the normal case;
    - an explicit **EDGE-CASES checklist** (empty, single, all-negative, duplicates, overflow, etc.);
-   - a **test runner** in `main` that calls the solution and prints `PASS`/`FAIL` (`expected=… got=…`) — done for the learner;
+   - test calls in `main` using the **shared `TestRunner`** (one `TestRunner.java` per category folder — colored/boxed PASS/FAIL output + `X/N passed` summary): `TestRunner.start("P0x - Title")` → `TestRunner.check(inputArray, expected, yourMethod(inputArray))` per case → `TestRunner.summary()`. The runner is provided; the learner only writes the solution method. Run with `javac *.java && java P0x` (compiles the shared runner too);
    - the **solution method as an empty stub** with numbered `// TODO` steps. Leave the body blank.
 2. **Fill (Learner):** hand-types the method body, runs `javac`/`java`, iterates until all cases `PASS`.
 3. **Harsh review (Mentor):** be genuinely critical — correctness, the **edge-case contract**, redundant/dead code, idiom, style. Honest over cheerleading. Credit what's right, then list every flaw plainly.
