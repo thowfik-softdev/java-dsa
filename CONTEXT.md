@@ -39,7 +39,7 @@ Full detail: [RULES.md](RULES.md). Weekly flow: see "Weekly" in RULES.
 - **Streak:** 4 days 🔥
 - **Weak topics to reinforce:** none yet
 - **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]], [[Conditional Statements]], [[Loops]], [[Methods]]
-- **Problems solved:** P01 Max in Array (linear scan, O(n)/O(1)) — `problem-solving/01-arrays/`.
+- **Problems solved:** P01 Max in Array, P02 Sum of Array, P03 Linear Search — all `problem-solving/01-arrays/` (linear-scan family, O(n)/O(1)). Shared `TestRunner.java` harness (colored PASS/FAIL). Lessons: contract for "no answer" (throw vs sentinel), accumulator identity (sum→0), early return + `-1` sentinel.
 - **Toolchain:** This device has **Temurin JDK 21 LTS** installed (winter 2026) + VS Code Java extensions. `javac`/`java` verified working. (Other machines may differ — check before running.)
 - **src/ convention:** files named `T0x_Topic.java` (number prefix → topic-order sort; class name matches). Only create files for done/current topics, no future scaffolds.
 - **IMPORTANT learner preference:** wants to **hand-type all code** themselves — give task + hints, never paste full solutions.
