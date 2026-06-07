@@ -68,6 +68,14 @@ git -c user.name="Thowfik Juhair" -c user.email="thowfik.softdev@gmail.com" comm
 ```
 This repo's **local git config is already set** to that identity, so a plain `git commit` / `git push` commits as the user with NO inline `-c` flags — it must look exactly like the user pushed it themselves. Use plain `git add` / `git commit -m` / `git push`. This rule lives here in CONTEXT so it travels with the repo when cloned to another machine — any assistant must follow it.
 
+## 💻 Multi-machine note (learner switches machines: weekend = this one, weekdays = another)
+The learner uses a **different machine on weekdays**. Everything is in git, so continuity = `git pull`. On ANY machine, at the start of a session, the Mentor should verify these (they're per-machine, NOT carried by git):
+1. **`git pull`** first — get the latest pushed work.
+2. **JDK present?** Run `java -version`. If missing, install a JDK (e.g. `winget install EclipseAdoptium.Temurin.21.JDK` on Windows), then reopen the terminal. *(This weekend machine has Temurin 21; a weekday machine may not.)*
+3. **Git identity set?** A fresh clone does NOT inherit the local git config. Set it once per machine so commits attribute correctly:
+   `git config user.name "Thowfik Juhair" && git config user.email "thowfik.softdev@gmail.com"` (see Git commit rules above — never any AI attribution).
+4. **Boot the Mentor** — read CONTEXT.md → RULES.md → latest `03-daily/` to resume.
+
 ## Decisions we've made (so we don't relitigate)
 - 2026-06-02: Rebuilt as **single-Mentor** system (no separate agents). Wiped v1 clean.
 - 2026-06-02: **Recall-first** daily order chosen (testing before learning).
