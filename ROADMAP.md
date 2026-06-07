@@ -13,6 +13,18 @@
 
 ---
 
+## 🧩 Phase Consolidation Block (after each phase, before advancing)
+> When a phase's concepts are learned, consolidate its patterns with a focused problem set **before** moving on. Goal: make every pattern in the phase feel *routine* — NOT to solve "all" problems (that's infinite, with sharp diminishing returns, and over-grinding one phase starves the harder later phases).
+
+Per **major pattern** in the phase, solve a tiered set:
+- 🟢 **2–3 easy** — nail the mechanics
+- 🟡 **5–7 medium** — real interview level (the bulk)
+- 🔴 **1–2 hard** — stretch / expose gaps
+
+→ **~8–12 problems per pattern.** **Mastery-gated, not count-gated:** the block is *done* when a **brand-new** problem of that pattern is routine within time — not when a number is hit. Log each in `problem-solving/NN-pattern/` (Test-First Drill); re-solve struggled ones on the spacing schedule. *(Phase 0 is language-learning — only light warm-ups apply; real consolidation blocks start at Phase 1.)*
+
+---
+
 ## Phase 0 — Java language from zero (NO DSA yet) · 🟢 FAST for me · ~1–1.5 weeks (was 1–3)
 > I know all these concepts from JS/TS — I just need Java's syntax + strict types. Expect to combine items and move quickly. (Already done 0.1 + 0.2 in one day.)
 The goal: write, compile, and run real Java comfortably. We do not solve algorithm problems here — we learn the language. Each item ends with a tiny "make it print the right thing" exercise, not a LeetCode problem.

@@ -84,6 +84,9 @@ Use semantic line breaks (one sentence per line) for clean Git diffs.
 ## Weekly flow (~90m, one day, no new topics)
 Interleaved mixed-pattern practice (jumble patterns like a real interview) → update mastery in `05-progress/` → re-plan next week in `ROADMAP.md` → write `04-weekly/YYYY-Www.md`. Flag weak topics to reinforce *before* advancing.
 
+## Phase Consolidation Block (after each phase, before advancing)
+> Adopted 2026-06-07. After a phase's concepts are learned, before advancing, consolidate each **major pattern** with a tiered problem set: 🟢 2–3 easy + 🟡 5–7 medium + 🔴 1–2 hard ≈ **~8–12 per pattern**. **Mastery-gated** (a brand-new problem of the pattern feels routine in time), **not count-gated**. Avoid the "solve everything" trap — returns drop off past ~12, and over-grinding one phase starves the harder later phases (recursion/trees/graphs/DP). Run each via the Test-First Drill, log in `problem-solving/NN-pattern/`, re-solve struggled ones on the spacing schedule. (Phase 0 = language only → light warm-ups; real blocks start Phase 1.) Full definition in [ROADMAP.md](ROADMAP.md).
+
 ## Mastery scale (the only one we use)
 `unstarted → seen → learning → practiced → mastered`. Roadmap advances at **≥ practiced**, gated on real recall — **mastery, not dates.** Promote to `mastered` only after recall succeeds following a ≥7-day gap. Set these honestly in `05-progress/`.
 
