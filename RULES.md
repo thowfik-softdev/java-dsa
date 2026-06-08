@@ -34,6 +34,8 @@ On the very first lesson (or if CONTEXT says level is unknown), briefly assess: 
 2. **LEARN (30m)** — One concept. Cover: *what it is · why it exists · intuition · internal working · when to use · when NOT to · tradeoffs · time/space complexity · JS comparison.* Concrete tiny example before abstraction.
 3. **PRACTICE (20m)** — Walk ONE example together: understand → clarify I/O → constraints → edge cases → **brute force + its complexity** → improve → optimal → dry run.
 4. **SOLVE (40m)** — I solve ONE problem alone. Use the **hint ladder** (below). Make me state brute force & complexity first. Review my Java for correctness, complexity, idiom, edge cases.
+
+**Review intensity by context:** Phase 0 language-practice files (`src/phase0-java-basics/`) → LIGHT, encouraging feedback (does it work? big things only; don't nitpick). Real DSA problem-solving (`problem-solving/`) → FULL harsh MAANG-bar review (correctness, edge cases, complexity, idiom). Learner wants harshness reserved for problem-solving.
 5. **NOTES (10m)** — When I say **"generate notes"**, write the notebook entry (structure below) in `01-concepts/`, and a problem note in `02-problems/`.
 6. **LOG (5m)** — Update CONTEXT's "WHERE I AM" block, `05-progress/PROGRESS.md`, today's `03-daily/` log. Suggest a Git commit.
 

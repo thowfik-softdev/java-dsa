@@ -33,12 +33,13 @@ Full detail: [RULES.md](RULES.md). Weekly flow: see "Weekly" in RULES.
 
 ## 📍 WHERE I AM RIGHT NOW  ← (the part that changes every day)
 - **Phase:** 0 — Java language from zero (NO DSA yet)
-- **Current roadmap item:** `0.6 References vs values` (next session) — 0.1–0.5 DONE.
-- **Last session:** Day 4 (2026-06-07) — item 0.5 Methods (params/return/`static`/`void`). Hand-wrote `add`/`square`/`greet`/`isEven`; caught a literal-`<name>` bug (param is a variable, not literal text) and the boolean-ternary smell (`cond ? true : false` → `cond`). Clean. Also did P01 max (linear scan) on Day 3.
-- **Next action:** Recall due cards ([[Methods]] due 06-08, [[Loops]] due 06-10), then teach `0.6 References vs values` — primitives copy vs objects share a reference, `==` vs `.equals()` (the JS-dev gotcha). Use the **Concept Scaffold** workflow: create `src/phase0-java-basics/T06_References.java` with simple guiding comments, then guide him to fill it.
-- **Streak:** 4 days 🔥
+- **Current roadmap item:** `0.7 Classes & Objects` (next session) — 0.1–0.6 DONE.
+- **Last session:** Day 5 (2026-06-08) — item 0.6 References vs Values. Mastered: predicted every output, found the array `.equals()`-is-reference-cmp trap UNPROMPTED. Also: cross-machine recall verified (weekend work intact), Zoho-style aptitude drill 7/8 (only gap: `++` pre/post-increment, now a card).
+- **Next action:** Recall due cards ([[References vs Values]] + `++` both due 06-09; [[Conditional Statements]] 06-09, [[Loops]] 06-10). Then teach `0.7 Classes & Objects` (DSA-minimal: fields, constructor, `new`, instance methods, `this`; bridge from JS classes; just enough for ListNode/TreeNode). Use Concept Scaffold: create `T07_ClassesAndObjects.java` with guiding comments, learner fills it.
+- **RECALL STYLE (learner request, now in RULES):** code-output + tricky Zoho-aptitude-style questions, 3–5 per concept — NOT plain "what is X" definitions. Make him trace & predict output.
+- **Streak:** 5 days 🔥
 - **Weak topics to reinforce:** none yet
-- **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]], [[Conditional Statements]], [[Loops]], [[Methods]]
+- **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]], [[Conditional Statements]], [[Loops]], [[Methods]], [[References vs Values]]
 - **Problems solved:** P01 Max in Array, P02 Sum of Array, P03 Linear Search — all `problem-solving/01-arrays/` (linear-scan family, O(n)/O(1)). Shared `TestRunner.java` harness (colored PASS/FAIL). Lessons: contract for "no answer" (throw vs sentinel), accumulator identity (sum→0), early return + `-1` sentinel.
 - **Toolchain:** This device has **Temurin JDK 21 LTS** installed (winter 2026) + VS Code Java extensions. `javac`/`java` verified working. (Other machines may differ — check before running.)
 - **src/ convention:** files named `T0x_Topic.java` (number prefix → topic-order sort; class name matches). Only create files for done/current topics, no future scaffolds.
