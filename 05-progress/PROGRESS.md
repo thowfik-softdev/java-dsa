@@ -9,8 +9,10 @@ The single place for streak + mastery + stats. Updated at the end of every sessi
 - **Started:** 2026-06-04
 
 ## 📈 Stats
-- Problems solved: 0 (easy 0 · medium 0 · hard 0)
-- Clean / guided / struggled: 0 / 0 / 0
+- Problems solved: 3 (easy 3 · medium 0 · hard 0)
+- Clean / guided / struggled: 3 / 0 / 0
+- By pattern: linear scan (arrays) — 3 (P01 Max, P02 Sum, P03 Linear Search), all O(n) time / O(1) space
+- Built a reusable `TestRunner.java` harness (colored PASS/FAIL). Note: `check()` is currently `int`-only — generalize to `<T>` when string/boolean problems arrive.
 
 ## 🎚️ Mastery (scale: unstarted → seen → learning → practiced → mastered)
 Roadmap advances at **≥ practiced**.

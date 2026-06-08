@@ -7,9 +7,14 @@
 // automatically by `javac *.java`. Copy it into each new category folder.
 //
 // API:
-//   TestRunner.start("P0x - Title");                 // header + reset counters
-//   TestRunner.check(inputArray, expected, got);     // got = yourMethod(inputArray)
-//   TestRunner.summary();                            // footer: X/N passed
+//   TestRunner.start("P0x - Title");                    // header + reset counters
+//   TestRunner.check(inputArray, expected, got);        // int-array convenience (auto-prints the array)
+//   TestRunner.check("desc", expected, got);            // GENERIC <T> — works for int/String/boolean/etc.
+//   TestRunner.summary();                               // footer: X/N passed
+//
+// The generic check<T> compares with .equals() (objects, not ==) so it handles
+// Integer, String, Boolean, long... Use it when input isn't a plain int[] (e.g.
+// (array, target), or a String input) or the result isn't an int.
 
 import java.util.Arrays;
 
@@ -32,14 +37,25 @@ public class TestRunner {
         System.out.println(BAR);
     }
 
-    // Compare a computed result against the expected value, print + count it.
+    // Convenience overload: int[] input + int result. Auto-prints the array.
     static void check(int[] input, int expected, int got) {
+        record(Arrays.toString(input), expected, got);
+    }
+
+    // Generic check: any input description (String) + any result type T.
+    // Compares with .equals() because T is an object (Integer/String/Boolean...).
+    static <T> void check(String inputDesc, T expected, T got) {
+        record(inputDesc, expected, got);
+    }
+
+    // Shared print + count logic for both overloads.
+    private static void record(String inputDesc, Object expected, Object got) {
         total++;
-        boolean ok = (got == expected);
+        boolean ok = (expected == null) ? (got == null) : expected.equals(got);
         if (ok) passed++;
         String tag = ok ? GREEN + "PASS" + RESET : RED + "FAIL" + RESET;
-        System.out.printf("  %s   input=%-16s exp=%-5d got=%-5d%n",
-                tag, Arrays.toString(input), expected, got);
+        System.out.printf("  %s   input=%-22s exp=%-8s got=%-8s%n",
+                tag, inputDesc, expected, got);
     }
 
     static void summary() {
