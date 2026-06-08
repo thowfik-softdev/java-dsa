@@ -53,8 +53,8 @@ _Add rows as new topics appear._
 Cards due for recall. Mentor reschedules after each review (fail→1d, ok→×1.5, easy→×2.5).
 | Card | Last reviewed | Next review | Interval (d) |
 |------|---------------|-------------|--------------|
-| [[Running a Java Program]] — println=?, javac vs java, why types? | 2026-06-05 | 2026-06-08 | 3 |
-| [[Variables and Types]] — 5 types, char vs String quotes, `7/2`=? | 2026-06-05 | 2026-06-08 | 3 |
+| [[Running a Java Program]] — println=?, javac vs java, why types? | 2026-06-08 | 2026-06-15 | 7 |
+| [[Variables and Types]] — decimal type is double (NOT float)! `7/2`=? | 2026-06-08 | 2026-06-11 | 3 |
 | [[Conditional Statements]] — String compare? switch no-break prints? | 2026-06-06 | 2026-06-09 | 3 |
 | [[Loops]] — 4 shapes? continue skips what? do-while runs how many times min? | 2026-06-07 | 2026-06-10 | 3 |
-| [[Methods]] — static? void vs return? param = literal or variable? | 2026-06-07 | 2026-06-08 | 1 |
+| [[Methods]] — static? void vs return? param = literal or variable? | 2026-06-08 | 2026-06-13 | 5 |
