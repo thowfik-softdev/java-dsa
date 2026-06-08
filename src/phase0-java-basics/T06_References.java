@@ -12,6 +12,7 @@ public class T06_References {
         int b = a; // copies the VALUE (10)
         b = 99; // changes b, but a is unaffected
         System.out.println("a: " + a); // expect 10
+        System.out.println("b: " + b); // expect 99
 
         // ── PART 2: arrays SHARE a reference (change via one, the other sees it)
         // TODO:
