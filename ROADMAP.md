@@ -34,9 +34,9 @@ The goal: write, compile, and run real Java comfortably. We do not solve algorit
 - [x] **0.3** **Conditional statements**: `if / else if / else`, comparison & logical operators, `switch` (vs JS — nearly identical, `===` quirk doesn't exist)
 - [x] **0.4** **Loops**: `for`, `while`, `do-while`, `break`/`continue` (vs JS — same shapes)
 - [x] **0.5** **Methods**: declaring, parameters, return types, `static` vs not, `void` (JS functions vs Java methods — types on params/return)
-- [ ] **0.6** **References vs values**: primitives copy, objects share a reference; `==` vs `.equals()` (this trips up JS devs — JS objects are also references, but `==` behaves differently)
-- [ ] **0.7** **Classes & objects** (DSA-minimal — I'm weak here, only saw OOP in college): fields, constructor, `new`, instance methods, `this` — just enough to write a `ListNode`/`TreeNode` and a "design this structure" class. NOT deep OOP (skip inheritance/polymorphism/patterns). Bridge from JS `class`/`constructor`/`this`.
-- [ ] **0.8** Mini-build: combine all of the above into one small program (e.g. a `BankAccount` class) — proves Phase 0 mastery
+- [x] **0.6** **References vs values**: primitives copy, objects share a reference; `==` vs `.equals()` (this trips up JS devs — JS objects are also references, but `==` behaves differently)
+- [x] **0.7** **Classes & objects** (DSA-minimal — I'm weak here, only saw OOP in college): fields, constructor, `new`, instance methods, `this` — just enough to write a `ListNode`/`TreeNode` and a "design this structure" class. NOT deep OOP (skip inheritance/polymorphism/patterns). Bridge from JS `class`/`constructor`/`this`.
+- [x] **0.8** Mini-build: combine all of the above into one small program (e.g. a `BankAccount` class) — proves Phase 0 mastery ✅ **PHASE 0 COMPLETE 2026-06-10**
 
 ## Phase 1 — Complexity + first data structures · 🟡 mixed (Big-O is 🔴 for me) · ~weeks 2–4
 > Arrays/strings/collections are 🟢–🟡 (dev logic transfers). **Big-O analysis is 🔴 genuinely new — go deep, multiple days.**

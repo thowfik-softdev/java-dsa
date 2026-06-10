@@ -33,11 +33,12 @@ Full detail: [RULES.md](RULES.md). Weekly flow: see "Weekly" in RULES.
 
 ## 📍 WHERE I AM RIGHT NOW  ← (the part that changes every day)
 - **Phase:** 0 — Java language from zero (NO DSA yet)
-- **Current roadmap item:** `0.8 Phase 0 mini-build` (next session) — 0.1–0.7 DONE. **Phase 0 nearly complete!**
-- **Last session:** Day 6 (2026-06-09) — item 0.7 Classes & Objects. Learner said he's weak at OOP AND doesn't know JS classes either → taught GROUND-UP (cookie-cutter analogy, not JS bridge). Mastered all of it: class/object, constructor (2 rules + why), `this` (connected to references himself), static vs instance (with shared-counter demo), DSA relevance (ListNode/TreeNode). Wrote Dog class by hand, ran clean.
-- **Next action:** Recall due cards ([[Classes and Objects]] due 06-10; [[References vs Values]] 06-12; `++` 06-13). Then **0.8 mini-build** — a small class combining fields+constructor+methods (e.g. BankAccount with deposit/withdraw), learner hand-writes it. That COMPLETES Phase 0 → then Phase 1 (Big-O + arrays = first real DSA).
+- **Current roadmap item:** `1.1 Big-O intuition` (next session) — 🎓 **PHASE 0 COMPLETE!** (0.1–0.8 all done).
+- **Last session:** Day 7 (2026-06-10) — item 0.8 mini-build CAPSTONE. Built `BankAccount` by hand (fields, constructor w/ this, deposit/withdraw conditionals, printBalance). Recall 5/5. Key lesson learned: TEST BOTH BRANCHES — his first run never triggered "Insufficient funds" because test data didn't exceed balance; fixed by withdrawing > balance. PHASE 0 (Java language) DONE.
+- **Next action:** Recall due cards. Then START **Phase 1 — item 1.1 Big-O intuition** 🔴 (HARD/new for him — go slow, deep). This is the FIRST real DSA concept (was language-learning before). Teach: counting operations, O(1)/O(n)/O(n²)/O(log n) by feel, NOT memorization. Lots of "how many steps does this do?" examples. Then arrays (1.2) start actual problem-solving in `problem-solving/`.
+- **MILESTONE:** Java foundation complete in 7 days (experienced dev, fast through syntax as predicted). Now entering real DSA where pace SLOWS (🔴 topics).
 - **RECALL STYLE (learner request, now in RULES):** MIXED formats per concept — blend conceptual "explain/why" Q&A, code-output traps, and spot-the-bug. NOT all output-prediction, NOT all definitions. Tricky/interview-style but varied.
-- **Streak:** 6 days 🔥
+- **Streak:** 7 days 🔥🔥
 - **Weak topics to reinforce:** none yet
 - **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]], [[Conditional Statements]], [[Loops]], [[Methods]], [[References vs Values]], [[Classes and Objects]]
 - **Problems solved:** P01 Max in Array, P02 Sum of Array, P03 Linear Search — all `problem-solving/01-arrays/` (linear-scan family, O(n)/O(1)). Shared `TestRunner.java` harness (colored PASS/FAIL). Lessons: contract for "no answer" (throw vs sentinel), accumulator identity (sum→0), early return + `-1` sentinel.

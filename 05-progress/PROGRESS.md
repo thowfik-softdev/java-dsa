@@ -3,9 +3,9 @@
 The single place for streak + mastery + stats. Updated at the end of every session by the Mentor. No other progress files — this is it.
 
 ## 🔥 Streak
-- **Current streak:** 6 days 🔥
-- **Longest streak:** 6 days
-- **Total study days:** 6
+- **Current streak:** 7 days 🔥🔥
+- **Longest streak:** 7 days
+- **Total study days:** 7
 - **Started:** 2026-06-04
 
 ## 📈 Stats
@@ -19,7 +19,7 @@ Roadmap advances at **≥ practiced**.
 
 | Topic | Level | Last reviewed | Note |
 |-------|-------|---------------|------|
-| Java basics (Phase 0) | learning | 2026-06-09 | 0.1–0.7 done: + classes/objects (fields, constructor, this/shadowing, static vs instance). Only 0.8 mini-build left. |
+| Java basics (Phase 0) | practiced | 2026-06-10 | ✅ PHASE 0 COMPLETE (0.1–0.8). Capstone BankAccount combined fields/conditionals/methods/refs/classes. Strong recall throughout. |
 | Big-O intuition | unstarted | — | |
 | Collections | unstarted | — | |
 | Two Pointers | unstarted | — | |
@@ -47,6 +47,7 @@ _Add rows as new topics appear._
 | 2026-06-07 | 4 | ✅ | 0.5 Methods (params/return/static/void) | add/square/greet/isEven by hand; caught literal-`<name>` bug + boolean-ternary smell. |
 | 2026-06-08 | 5 | ✅ | 0.6 References vs Values | Cross-machine recall verified (nothing lost). Zoho aptitude drill 7/8 (gap: ++). Mastered refs: predicted all outputs, found array .equals() trap unprompted. |
 | 2026-06-09 | 6 | ✅ | 0.7 Classes & Objects | Recall 5/5 (mixed format). Said weak at OOP/JS classes → taught ground-up. Mastered: class/object, constructor (+2 rules, why), this (connected to references himself), static vs instance, DSA relevance. Wrote Dog class by hand. |
+| 2026-06-10 | 7 | ✅ | 0.8 Mini-Build 🎓 PHASE 0 DONE | Recall 5/5. Built BankAccount capstone by hand (fields+ctor+this+conditionals+methods). Caught the test-both-branches lesson: rejection path wasn't triggered until test data exceeded balance. |
 
 ## 🩹 Weak topics (to reinforce before advancing)
 - none yet
@@ -58,8 +59,8 @@ Cards due for recall. Mentor reschedules after each review (fail→1d, ok→×1.
 | [[Running a Java Program]] — println=?, javac vs java, why types? | 2026-06-08 | 2026-06-15 | 7 |
 | [[Variables and Types]] — decimal type is double (NOT float)! `7/2`=? | 2026-06-08 | 2026-06-11 | 3 |
 | [[Conditional Statements]] — String compare? switch no-break prints? | 2026-06-09 | 2026-06-16 | 7 |
-| [[Loops]] — 4 shapes? continue skips what? do-while runs how many times min? | 2026-06-07 | 2026-06-10 | 3 |
+| [[Loops]] — 4 shapes? continue skips what? do-while runs how many times min? | 2026-06-10 | 2026-06-17 | 7 |
 | [[Methods]] — static? void vs return? param = literal or variable? | 2026-06-08 | 2026-06-13 | 5 |
 | [[References vs Values]] — `y=x; y[0]=99` → x[0]? `{1,2,3}=={1,2,3}`? array .equals? | 2026-06-09 | 2026-06-12 | 3 |
 | `++`/`--` pre vs post — `x=5; y=x+++ ++x;`→x,y? chained `a-- - --a`? | 2026-06-08 | 2026-06-13 | 5 |
-| [[Classes and Objects]] — constructor 2 rules? why `this`? static vs instance? is `void Dog()` a ctor? | 2026-06-09 | 2026-06-10 | 1 |
+| [[Classes and Objects]] — constructor 2 rules? why `this`? static vs instance? is `void Dog()` a ctor? defaults? | 2026-06-10 | 2026-06-13 | 3 |
