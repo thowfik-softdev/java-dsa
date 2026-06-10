@@ -33,13 +33,13 @@ Full detail: [RULES.md](RULES.md). Weekly flow: see "Weekly" in RULES.
 
 ## 📍 WHERE I AM RIGHT NOW  ← (the part that changes every day)
 - **Phase:** 0 — Java language from zero (NO DSA yet)
-- **Current roadmap item:** `0.7 Classes & Objects` (next session) — 0.1–0.6 DONE.
-- **Last session:** Day 5 (2026-06-08) — item 0.6 References vs Values. Mastered: predicted every output, found the array `.equals()`-is-reference-cmp trap UNPROMPTED. Also: cross-machine recall verified (weekend work intact), Zoho-style aptitude drill 7/8 (only gap: `++` pre/post-increment, now a card).
-- **Next action:** Recall due cards ([[References vs Values]] + `++` both due 06-09; [[Conditional Statements]] 06-09, [[Loops]] 06-10). Then teach `0.7 Classes & Objects` (DSA-minimal: fields, constructor, `new`, instance methods, `this`; bridge from JS classes; just enough for ListNode/TreeNode). Use Concept Scaffold: create `T07_ClassesAndObjects.java` with guiding comments, learner fills it.
-- **RECALL STYLE (learner request, now in RULES):** code-output + tricky Zoho-aptitude-style questions, 3–5 per concept — NOT plain "what is X" definitions. Make him trace & predict output.
-- **Streak:** 5 days 🔥
+- **Current roadmap item:** `0.8 Phase 0 mini-build` (next session) — 0.1–0.7 DONE. **Phase 0 nearly complete!**
+- **Last session:** Day 6 (2026-06-09) — item 0.7 Classes & Objects. Learner said he's weak at OOP AND doesn't know JS classes either → taught GROUND-UP (cookie-cutter analogy, not JS bridge). Mastered all of it: class/object, constructor (2 rules + why), `this` (connected to references himself), static vs instance (with shared-counter demo), DSA relevance (ListNode/TreeNode). Wrote Dog class by hand, ran clean.
+- **Next action:** Recall due cards ([[Classes and Objects]] due 06-10; [[References vs Values]] 06-12; `++` 06-13). Then **0.8 mini-build** — a small class combining fields+constructor+methods (e.g. BankAccount with deposit/withdraw), learner hand-writes it. That COMPLETES Phase 0 → then Phase 1 (Big-O + arrays = first real DSA).
+- **RECALL STYLE (learner request, now in RULES):** MIXED formats per concept — blend conceptual "explain/why" Q&A, code-output traps, and spot-the-bug. NOT all output-prediction, NOT all definitions. Tricky/interview-style but varied.
+- **Streak:** 6 days 🔥
 - **Weak topics to reinforce:** none yet
-- **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]], [[Conditional Statements]], [[Loops]], [[Methods]], [[References vs Values]]
+- **Notes generated so far:** [[Running a Java Program]], [[Variables and Types]], [[Conditional Statements]], [[Loops]], [[Methods]], [[References vs Values]], [[Classes and Objects]]
 - **Problems solved:** P01 Max in Array, P02 Sum of Array, P03 Linear Search — all `problem-solving/01-arrays/` (linear-scan family, O(n)/O(1)). Shared `TestRunner.java` harness (colored PASS/FAIL). Lessons: contract for "no answer" (throw vs sentinel), accumulator identity (sum→0), early return + `-1` sentinel.
 - **Toolchain:** This device has **Temurin JDK 21 LTS** installed (winter 2026) + VS Code Java extensions. `javac`/`java` verified working. (Other machines may differ — check before running.)
 - **src/ convention:** files named `T0x_Topic.java` (number prefix → topic-order sort; class name matches). Only create files for done/current topics, no future scaffolds.
