@@ -40,20 +40,43 @@ public class T07_ClassesAndObjects {
     public static void main(String[] args) {
         // STEP 4 — build a Dog object with `new`, passing a name + age.
         // Pattern: Dog d1 = new Dog("Rex", 3);
-        Dog d1 = new Dog("Tjj", 2);
+        // Dog d1 = new Dog("Tjj", 2);
 
-        // STEP 5 — call its instance method: d1.bark();
-        d1.bark();
+        // // STEP 5 — call its instance method: d1.bark();
+        // d1.bark();
 
-        // STEP 6 — build a SECOND, independent Dog (different name + age)
-        // and bark() it too. This proves each object holds its OWN data.
-        Dog d2 = new Dog("Rex", 3);
-        d2.bark();
+        // // STEP 6 — build a SECOND, independent Dog (different name + age)
+        // // and bark() it too. This proves each object holds its OWN data.
+        // Dog d2 = new Dog("Rex", 3);
+        // d2.bark();
 
-        // STEP 7 (observe) — print d1's age and d2's age on their own lines,
-        // to confirm the two objects do not share fields.
-        System.out.println(d1.age);
-        System.out.println(d2.age);
+        // // STEP 7 (observe) — print d1's age and d2's age on their own lines,
+        // // to confirm the two objects do not share fields.
+        // System.out.println(d1.age);
+        // System.out.println(d2.age);
 
+        Book b1 = new Book("My Love", 99.50);
+        b1.show();
+
+        Book b2 = new Book("My Love : Edition 2");
+        b2.show();
+    }
+}
+
+class Book {
+    String title;
+    double price;
+
+    Book(String title) {
+        this.title = title;
+    }
+
+    Book(String title, double price) {
+        this.title = title;
+        this.price = price;
+    }
+
+    void show() {
+        System.out.println(title + " : " + price);
     }
 }
