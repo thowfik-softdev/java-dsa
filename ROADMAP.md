@@ -13,6 +13,13 @@
 
 ---
 
+## ✅ Coverage vs the "30 DSA Patterns" chart
+Cross-checked against the popular 30-pattern catalog: **all 30 covered.** The DP variants
+(LCS/LIS subsequences, DP-on-intervals, DP-on-trees) are learned *inside* the DP items (5.3–5.5)
+as you do problems, not as separate line items. The 3 distinct ones — **Cyclic Sort (2.7),
+Monotonic Deque (3.3), K-way Merge (4.3b)** — are now explicit. Fast/slow pointers live in
+Linked List (2.4), monotonic stack in Stack (2.2), binary-search-on-answer in Searching (2.6).
+
 ## 🧩 Phase Consolidation Block (after each phase, before advancing)
 > When a phase's concepts are learned, consolidate its patterns with a focused problem set **before** moving on. Goal: make every pattern in the phase feel *routine* — NOT to solve "all" problems (that's infinite, with sharp diminishing returns, and over-grinding one phase starves the harder later phases).
 
@@ -55,19 +62,22 @@ Now we reason about *cost* and learn the built-in containers DSA relies on.
 - [ ] **2.4** [[Linked List]] — traversal, reversal, fast/slow pointers
 - [ ] **2.5** [[Sorting]] — built-in sort + merge/quick intuition, custom comparators
 - [ ] **2.6** [[Searching]] — linear search → [[Binary Search]] (on arrays, then on answer space)
+- [ ] **2.7** [[Cyclic Sort]] — for "numbers 1..n in an array" problems (find missing/duplicate in O(n)/O(1))
 
 ## Phase 3 — Core patterns · 🟡 steady · ~weeks 11–15
 > These patterns are learnable once recursion/complexity click. Two pointers & sliding window feel intuitive to a dev; hashing leans on Map skills you already have. Steady pace, lots of problems.
 - [ ] **3.1** [[Two Pointers]] — converging & same-direction
 - [ ] **3.2** [[Sliding Window]] — fixed & variable size
-- [ ] **3.3** [[Hashing]] — frequency maps, seen-sets, complement trick
-- [ ] **3.4** [[Prefix Sum]]
+- [ ] **3.3** [[Monotonic Deque]] — sliding-window maximum/minimum in O(n) (extends sliding window + ArrayDeque)
+- [ ] **3.4** [[Hashing]] — frequency maps, seen-sets, complement trick
+- [ ] **3.5** [[Prefix Sum]]
 
 ## Phase 4 — Trees, heaps & graphs · 🔴 HARD — deep time · ~weeks 16–24
 > Heavily recursion-dependent. **Trees and graphs (BFS/DFS) need multiple deep days each** — these are core FAANG topics and brand new to me. Expect to revisit.
 - [ ] **4.1** [[Tree]] / Binary Tree — DFS (pre/in/post) + BFS traversals
 - [ ] **4.2** Binary Search Tree
 - [ ] **4.3** [[Heap]] / PriorityQueue — top-K
+- [ ] **4.3b** [[K-way Merge]] — merge K sorted lists/arrays using a min-heap (builds on Heap)
 - [ ] **4.4** [[Graph]] representations — adjacency list/matrix
 - [ ] **4.5** [[BFS]] — shortest path in unweighted graphs
 - [ ] **4.6** [[DFS]] — connectivity, cycle detection
