@@ -23,10 +23,24 @@ Linked List (2.4), monotonic stack in Stack (2.2), binary-search-on-answer in Se
 ## 🧩 Phase Consolidation Block (after each phase, before advancing)
 > When a phase's concepts are learned, consolidate its patterns with a focused problem set **before** moving on. Goal: make every pattern in the phase feel *routine* — NOT to solve "all" problems (that's infinite, with sharp diminishing returns, and over-grinding one phase starves the harder later phases).
 
-Per **major pattern** in the phase, solve a tiered set:
+### The golden rule: master ONE pattern deeply, then move on — solve VARIATIONS, not repetitions
+> Don't solve 30 problems of the *same shape* (after ~5, you're just muscle-memory, learning ~nothing).
+> Solve fewer problems where **each one twists the pattern differently** — that forces real understanding,
+> so you can handle a problem you've never seen. **Variation > volume.** Master the pattern, then advance.
+>
+> Example — Two Pointers variations (each a different twist): Two Sum sorted (converging) · remove
+> duplicates (same-direction) · container-with-most-water (greedy) · 3Sum (pointers inside a loop) ·
+> valid palindrome (skip chars) · trapping rain water (track max). 6 problems, 6 *different* ideas —
+> beats 30 copies of Two Sum.
+
+Per **major pattern**, solve a tiered set where **every problem is a distinct variation**:
 - 🟢 **2–3 easy** — nail the mechanics
-- 🟡 **5–7 medium** — real interview level (the bulk)
+- 🟡 **5–7 medium** — real interview level; each a *new twist* on the pattern (the bulk)
 - 🔴 **1–2 hard** — stretch / expose gaps
+
+**Mastery test (not a count):** the pattern is "done" when a *brand-new, unseen* problem of that pattern
+feels routine within time. If a new variation still stumps you, you haven't mastered it — do another
+*different* one, not the same again. The Mentor picks variations that each teach a new angle.
 
 → **~8–12 problems per pattern.** **Mastery-gated, not count-gated:** the block is *done* when a **brand-new** problem of that pattern is routine within time — not when a number is hit. Log each in `problem-solving/NN-pattern/` (Test-First Drill); re-solve struggled ones on the spacing schedule. *(Phase 0 is language-learning — only light warm-ups apply; real consolidation blocks start at Phase 1.)*
 
