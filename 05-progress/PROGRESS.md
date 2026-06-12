@@ -57,10 +57,10 @@ Cards due for recall. Mentor reschedules after each review (fail→1d, ok→×1.
 | Card | Last reviewed | Next review | Interval (d) |
 |------|---------------|-------------|--------------|
 | [[Running a Java Program]] — println=?, javac vs java, why types? | 2026-06-08 | 2026-06-15 | 7 |
-| [[Variables and Types]] — decimal type is double (NOT float)! `7/2`=? | 2026-06-08 | 2026-06-11 | 3 |
+| [[Variables and Types]] — decimal type is double (NOT float)! int/2.0? `double y=7/2`? | 2026-06-12 | 2026-06-17 | 5 |
 | [[Conditional Statements]] — String compare? switch no-break prints? | 2026-06-09 | 2026-06-16 | 7 |
 | [[Loops]] — 4 shapes? continue skips what? do-while runs how many times min? | 2026-06-10 | 2026-06-17 | 7 |
 | [[Methods]] — static? void vs return? param = literal or variable? | 2026-06-08 | 2026-06-13 | 5 |
-| [[References vs Values]] — `y=x; y[0]=99` → x[0]? `{1,2,3}=={1,2,3}`? array .equals? | 2026-06-09 | 2026-06-12 | 3 |
+| [[References vs Values]] — `y=x; y[0]=99` → x[0]? `{1,2,3}=={1,2,3}`? array .equals? | 2026-06-12 | 2026-06-17 | 5 |
 | `++`/`--` pre vs post — `x=5; y=x+++ ++x;`→x,y? chained `a-- - --a`? | 2026-06-08 | 2026-06-13 | 5 |
 | [[Classes and Objects]] — constructor 2 rules? why `this`? static vs instance? is `void Dog()` a ctor? defaults? | 2026-06-10 | 2026-06-13 | 3 |
